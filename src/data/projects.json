@@ -1,26 +1,16 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Inventory Management System",
+    "imageSrc": "projects/inventory.png",
+    "description": "Backend/Project is used to maintain inventories by creating,deleting,updating and getting",
+    "skills": ["Java", "SpringBoot", "React"],
+    "source": "https://github.com/nandiniverma08/InventoryProject/tree/main/src"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Magical Arena",
+    "imageSrc": "projects/magicalarena.png",
+    "description": "Backend/The Magical Arena Game is a turn-based battle game where two players compete to defeat each other using magical powers.",
+    "skills": ["Java", "Junit"],
+    "source": "https://github.com/nandiniverma08/MagicalArenaGame"
   }
 ]

@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 61px;
-  z-index: 2; /* for overlapping elements*/
+  z-index: 2;
   margin: 0 10%;
 }
 
@@ -32,8 +32,6 @@
   color: var(--color-text);
   text-decoration: none;
 }
-
-/* to make responsisve */
 
 @media screen and (max-width: 830px) {
   .navbar {
