@@ -101,20 +101,44 @@
 }
 
 @media screen and (max-width: 830px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   .content {
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+    gap: 20px;
+  }
+
+  .skills,
+  .history {
+    width: 100%;
   }
 
   .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
+    gap: 20px;
   }
 
-  .history {
-    width: 100%;
-    gap: 9px;
+  .historyItem {
+    padding: 16px; /* Adjust padding for better spacing in mobile view */
+  }
+
+  .historyItem img {
+    width: 40px; /* Adjust image size for better visibility on mobile */
+  }
+
+  .historyItemDetails h3 {
+    font-size: 22px; /* Adjust heading font size for better readability on mobile */
+  }
+
+  .historyItemDetails p {
+    font-size: 16px; /* Adjust paragraph font size for better readability on mobile */
+  }
+
+  .historyItemDetails ul {
+    font-size: 18px; /* Adjust list font size for better readability on mobile */
+    margin-left: 10px;
   }
 }

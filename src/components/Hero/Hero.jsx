@@ -8,8 +8,9 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi , I am Nandini</h1>
         <p className={styles.description}>
-          I am full stack developer, with less than a year experience in
-          creating web applications using Java , Springboot , Mysql and React.
+          I am full stack developer, with close to a year of experience in
+          creating web applications using Java , Springboot , Mysql and
+          Html/CSS, JavaScript and React.js.
         </p>
         <a
           href="mailto:vermanandini818@gmail.com"

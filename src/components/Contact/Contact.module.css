@@ -50,15 +50,37 @@
   .container {
     flex-direction: column;
     gap: 23px;
+    padding: 30px 10px; /* Adjust padding for better responsiveness */
+    width: 100%; /* Make the container take up the full width of the viewport */
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
   }
 
   .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center; /* Center text in mobile view */
   }
 
   .links {
     align-items: center;
+  }
+
+  .text h2 {
+    font-size: 40px; /* Adjust heading font size for better readability on mobile */
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 20px; /* Adjust paragraph font size for better readability on mobile */
+    letter-spacing: 1px;
+  }
+
+  .link {
+    flex-direction: column; /* Stack icon and link vertically in mobile view */
+    text-align: center; /* Center text in mobile view */
+    gap: 10px;
+  }
+
+  .link a {
+    font-size: 18px; /* Adjust link font size for better readability on mobile */
+    letter-spacing: 1px;
   }
 }
